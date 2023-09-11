@@ -8,8 +8,8 @@ url_object = URL.create(
     "mysql+mysqlconnector",
     username="user2",
     password="password1",
-    host="10.8.66.40",
-    database="station_controller",
+    host="127.0.0.1",
+    database="database",
 )
 engine = create_engine(url_object, echo=True)
 
